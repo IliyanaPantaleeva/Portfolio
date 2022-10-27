@@ -42,8 +42,8 @@ const Projects = () => {
     {
       image: project5,
       name: 'Lia Portfolio',
-      github_link: '',
-      live_link: '',
+      github_link: 'https://github.com/IliyanaPantaleeva/portfolio',
+      live_link: 'https://iliyanapantaleeva.github.io/portfolio/',
     },
   ];
   return (
