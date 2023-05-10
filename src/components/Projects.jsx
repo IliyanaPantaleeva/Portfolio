@@ -7,6 +7,7 @@ import project3 from "../assets/images/pro-3.jpg";
 import project4 from "../assets/images/pro-4.jpg";
 import project5 from "../assets/images/pro-5.jpg";
 import project6 from "../assets/images/pro-6.jpg";
+import project7 from "../assets/images/pro-7.jpg";
 import view from "../assets/images/project_view.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -44,13 +45,19 @@ const Projects = () => {
       image: project5,
       name: "Lia Portfolio",
       github_link: "https://github.com/IliyanaPantaleeva/portfolio",
-      live_link: "https://iliyanapantaleeva.github.io/portfolio/",
+      live_link: "https://portfolio-iliyanapantaleeva.vercel.app/",
     },
     {
       image: project6,
       name: "Soft World",
       github_link: "https://github.com/IliyanaPantaleeva/platform_o",
       live_link: "https://platform-o.vercel.app/",
+    },
+    {
+      image: project7,
+      name: "Dream Travel",
+      github_link: "https://github.com/IliyanaPantaleeva/dream-travel",
+      live_link: "https://dream-travel-iliyanapantaleeva.vercel.app/",
     },
   ];
   return (
